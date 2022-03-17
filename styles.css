@@ -22,6 +22,10 @@ label{
     margin-left: 4rem;
 }
 
+#my-item_1{
+    display: none;
+}
+
 .to-do-list{
     margin: auto;
     width: 50%;
