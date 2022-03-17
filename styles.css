@@ -16,16 +16,30 @@ label{
     font-weight: bolder;
 }
 
-button{
+#submit{
     background-color: #041562 !important;
     color: #EEEEEE !important;
 }
 
 .to-do-list{
-    position: absolute;
-    left: 50%;
-    top:30%;
-    transform: translate(-50%, -50%);
-    border: 2px solid;
-    padding: 2vw;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #041562 ;
+    padding: 10px;
+}
+
+.data-input-form{
+    padding: 1vh 3vw;
+}
+
+.form-control{
+    width: 120%;
+}
+
+.item-list{
+    padding: 3vh 4vw;
+}
+
+.del-btn{
+    float: right;
 }
