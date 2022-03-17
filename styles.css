@@ -19,6 +19,7 @@ label{
 #submit{
     background-color: #041562 !important;
     color: #EEEEEE !important;
+    margin-left: 4rem;
 }
 
 .to-do-list{
@@ -33,7 +34,7 @@ label{
 }
 
 .form-control{
-    width: 120%;
+    width: 140%;
 }
 
 .item-list{

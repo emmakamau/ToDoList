@@ -7,5 +7,6 @@ $(document).ready(function(){
         $("ul.item-list").append(
             `<li class="my-item" id="my-item_1">${item}<button class="del-btn">X</button></li>`
         )
+        $("input#title").val("") //Reset value after submit
     })
 })
